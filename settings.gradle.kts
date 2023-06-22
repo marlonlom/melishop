@@ -5,6 +5,8 @@ pluginManagement {
     gradlePluginPortal()
   }
 }
+
+@Suppress("UnstableApiUsage")
 dependencyResolutionManagement {
   repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
   repositories {
@@ -12,5 +14,9 @@ dependencyResolutionManagement {
     mavenCentral()
   }
 }
+
 rootProject.name = "Melishop"
-include ':app'
+/* includes - apps */
+include(":apps:mobile_app")
+/* todo: libraries - tbd */
+/* todo: features - tbd */
