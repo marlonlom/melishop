@@ -12,6 +12,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import dev.marlonlom.demos.melishop.ui.theme.MelishopTheme
 
+/**
+ * Main activity class.
+ *
+ * @author marlonlom
+ */
 class MainActivity : ComponentActivity() {
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
@@ -29,6 +34,11 @@ class MainActivity : ComponentActivity() {
   }
 }
 
+/**
+ * Greeting composable screen page.
+ *
+ * @param name
+ */
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
   Text(
@@ -37,6 +47,10 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
   )
 }
 
+/**
+ * Greeting composable preview screen page.
+ *
+ */
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
