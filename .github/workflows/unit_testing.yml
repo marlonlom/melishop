@@ -1,4 +1,4 @@
-name: Unit Testing
+name: Melishop Unit Testing
 
 on:
   push:

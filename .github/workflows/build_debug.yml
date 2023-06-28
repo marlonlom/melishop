@@ -1,4 +1,4 @@
-name: Building Debug app
+name: Building Melishop Mobile Debug app
 
 on:
   push:
