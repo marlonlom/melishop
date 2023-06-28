@@ -1,4 +1,6 @@
 # melishop
+![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/marlonlom/melishop/build_debug.yml)
+![GitHub](https://img.shields.io/github/license/marlonlom/melishop)
 
 An android mobile application using the MercadoLibre APIs, which allows a user to consult and view the details of a
 product.
